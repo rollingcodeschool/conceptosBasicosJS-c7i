@@ -26,9 +26,21 @@ do{
 
 */
 
-let cantidadMates = 20;
+// let cantidadMates = 20;
 
-do{
-    document.write('<br>Mates cebados: N '+cantidadMates);
-    cantidadMates--; //cantidadMates = cantidadMates - 1; 
-}while(cantidadMates >= 1)
+// do{
+//     document.write('<br>Mates cebados: N '+cantidadMates);
+//     cantidadMates--; //cantidadMates = cantidadMates - 1; 
+// }while(cantidadMates >= 1)
+
+// Bucle for
+
+/* for(inicializar una variable; condicion logica;  incrimentar o decrementar la variable creada){
+    todas las lineas que quiero ejecutar
+} */
+
+
+for(let mates = 1; mates <= 20; mates= mates + 1){
+    document.write('<br>Mates cebados: N '+mates);
+}
+
