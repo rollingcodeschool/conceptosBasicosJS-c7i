@@ -13,13 +13,12 @@ console.log(columnas);
     <tbody>`)
 
     for(let inidiceFila = 0; inidiceFila < filas; inidiceFila++ ){
-        document.write(`
-            <tr>
-                <td>hola</td>
-                <td>mundo 2</td>
-            </tr>`)
+        document.write(`<tr>`)
+        for(let indiceColumna = 0; indiceColumna < columnas; indiceColumna++){
+            document.write(`<td>hola</td>`)
+        }
+        document.write(`</tr>`)
     }
-
 
     document.write(`
     </tbody>
