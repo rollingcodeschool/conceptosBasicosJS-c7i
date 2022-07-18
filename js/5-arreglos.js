@@ -61,5 +61,6 @@ for(let indiceSerie=0; indiceSerie < series.length; indiceSerie++){
 }
 document.write(`</ul>`);
 
-
+console.log(series.length);
+console.log(series[20]);
 
