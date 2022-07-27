@@ -32,3 +32,12 @@ document.write(`<p>Version: ${celular.version}</p>`);
 celular.llamar();
 celular.llamar();
 celular.sacarFoto();
+
+//agregar una propiedad posterior a la creacion del objeto
+celular.camaraFoto = true;
+document.write(`<p>Camara de fotos: ${celular.camaraFoto}</p>`);
+
+//borrar una propiedad del objeto
+
+delete celular.camaraFoto;
+console.log(celular);
